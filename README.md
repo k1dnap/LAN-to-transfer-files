@@ -7,6 +7,9 @@
 
 `pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple`
 
+### 克隆项目
+git clone https://github.com/k1dnap/LAN-to-transfer-files.git
+
 ### 安装依赖
 `pip -r requirements.txt`
 

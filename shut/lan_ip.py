@@ -12,6 +12,7 @@ def get_local_ip():
         print("获取局域网 IP 地址失败:", e)
         return None
 
-# 获取局域网 IP 地址
-# local_ip = get_local_ip()
-# print("局域网 IP 地址:", local_ip)
+if __name__ == '__main__':
+    # 获取局域网 IP 地址
+    local_ip = get_local_ip()
+    print("局域网 IP 地址:", local_ip)
